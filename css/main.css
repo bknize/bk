@@ -1,0 +1,90 @@
+div{
+    border: 0px solid #000;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 6em;
+    font-weight: 500;
+    line-height: .75em;
+    margin: 0;
+}
+h1.kerning{
+    position: relative;
+    left: -5px;
+}
+h2{
+    font-size: 3.15em;
+    line-height: .8em;
+    margin: 0;
+}
+h3{
+    font-size: 2em;
+    font-weight: 500;
+    line-height: .8em;
+    margin: 12px 0;
+}
+h4{
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: .8em;
+    margin: 12px 0;
+}
+h5{
+    font-size: 1.5em;
+    line-height: .85em;
+    margin: 0;
+    color: #808080;
+}
+.header{
+    margin-top: 48px;
+    margin-bottom: 36px;
+}
+a{
+    color: #222;
+    border-bottom: 2px solid #ccc;
+    text-decoration: none;
+    transition: border .2s ease;
+}
+a:hover{
+    color: #000;
+    border-bottom: 4px solid #ccc;
+}
+p{
+    margin-bottom: 8px;
+}
+li.link{
+    font-size: 1.2em;
+}
+li.gallery{
+    width: 100%;
+    list-style: none;
+    display: none;
+    color: #808080;
+}
+.gallery a:first-child{
+    margin-left: 16px;
+}
+.image-placeholder{
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.image-placeholder,
+.image{
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+}
+.image.genesis{
+    background-image: url('../images/genesis.png');
+}
+.image.quick{
+    background-image: url('../images/quick.png');
+}
+.image.munchbox{
+    background-image: url('../images/munchbox.png');
+}
