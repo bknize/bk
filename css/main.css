@@ -88,3 +88,12 @@ li.gallery{
 .image.munchbox{
     background-image: url('../images/munchbox.png');
 }
+.image.port{
+    background-image: url('../images/port.png');
+}
+.image.infograph{
+    background-image: url('../images/infograph.png');
+}
+.image.process{
+    background-image: url('../images/process/thumb.png');
+}
